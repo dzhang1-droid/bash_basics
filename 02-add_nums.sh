@@ -20,5 +20,7 @@ echo "Enter height"
 read height
 
 pixels=$((width * height))
-
 echo "Total pixels: $pixels"
+
+area=$((width * height))
+echo "Area is: $area"
